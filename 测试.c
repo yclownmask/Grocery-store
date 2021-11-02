@@ -519,10 +519,8 @@ int main()
         printf("%d ",a[i]);
     return 0;
 }*/
-/*编写程序，从键盘输入 n 个由小到大的顺序排好的数列和一个数 insert_value，把 
-insert_value 插入 到由这 n 个数组成的数列中，而且仍然保持由小到大的顺序，若 
-insert_value 比原有所有的数都大时放在最 后，比原有的数都小时放在最前面。
 
+/*在原来有序的基础上插入一个数
 #include <stdio.h>
 int main()
 {
