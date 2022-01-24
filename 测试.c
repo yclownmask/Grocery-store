@@ -73,6 +73,27 @@ int main()
 							printf("A--%c\nB--%c\nC--%c\n",i,j,k);
 	return 0;
 }*/
+/*字母菱形
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    int i,j,k,n;
+    char c='A';
+    printf("n= ");
+    scanf("%d",&n);
+    printf("对应的菱形图\n");
+    for (k=1-n;k<=n-1;k++,c++)
+        {
+            i=n-abs(k);
+            for (j=1;j<=n-i+8;j++)//+8,右移8位
+                printf(" ");
+            for (j=1;j<=2*i-1;j++)
+                printf("%c",c);
+            printf("\n");
+        }
+    return 0;
+}*/
 /*菱形星
 #include <stdio.h>
 #include <math.h>
